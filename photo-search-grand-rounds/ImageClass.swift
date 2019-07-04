@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import UIKit
 
 public class Image {
     let photo: Photo
