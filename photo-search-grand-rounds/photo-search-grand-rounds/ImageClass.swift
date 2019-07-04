@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+
+public class Image {
+    let photo: Photo
+    var thumbnail: UIImage?
+    var fullsize: UIImage?
+    
+    init(photo: Photo) {
+        self.photo = photo
+        self.thumbnail = nil
+        self.fullsize = nil
+    }
+}
